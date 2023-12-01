@@ -1,0 +1,368 @@
+import { Video } from "../types/video";
+
+
+export const videos: Video[] = [
+    {
+        videoId: '1',
+        src: '../../src/assets/card/Conociendo SAN ANTONIO EN CALI Desocupe Masivo.jpg',
+        icon: '../../src/assets/profile_icons/desocupemasivo.jpg',
+        name: 'Conociendo SAN ANTONIO EN CALI Desocupe Masivo',
+        duration: '8:02',
+        author: 'Desocupe Masivo',
+        likes: '',
+        genre: 'Recommended, Comedy, 2D Animation, Parody, Webserie',
+        iframe: '../../src/assets/videos/Desocupe_Masivo.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    }, {
+        videoId: '2',
+        src: '../../src/assets/card/DONKS.jpg',
+        icon: '../../src/assets/profile_icons/felix.jpg',
+        name: 'DONKS',
+        duration: '6:37',
+        author: 'Felix Colgrave',
+        likes: '',
+        genre: 'Recommended, Crazy, 2D Animation',
+        iframe: '../../src/assets/videos/DONKS.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.',
+    }, {
+        videoId: '3',
+        src: '../../src/assets/card/Elain Gets Adopted.jpg',
+        icon: '../../src/assets/profile_icons/goose.jpg',
+        name: 'Elain Gets Adopted',
+        duration: '17:02',
+        author: 'Gooseworx',
+        likes: '',
+        genre: 'Recommended, Crazy, 2D Animation',
+        iframe: '../../src/assets/videos/Elian.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    }, {
+        videoId: '4',
+        src: '../../src/assets/card/Happy Tree Friends - Lesser of Two Evils.jpg',
+        icon: '../../src/assets/profile_icons/mondo.jpg',
+        name: 'Happy Tree Friends - Lesser of Two Evils',
+        duration: '21:54',
+        author: 'MondoMedia',
+        likes: '',
+        genre: 'Recommended, Crazy, 2D Animation, Adult, Webserie, Premium',
+        iframe: '../../src/assets/videos/Happy Tree Friends - Lesser of Two Evils.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor. Nullam euismod ligula nec purus vestibulum, at congue justo bibendum. Curabitur sed libero eget lorem malesuada blandit. Sed et tristique elit. Nulla facilisi. Sed fermentum, leo sit amet dictum cursus, nibh elit lacinia justo, ac mattis orci purus quis ex.'
+    }, {
+        videoId: '4',
+        src: '../../src/assets/card/Pikachu on Acid.jpg',
+        icon: '../../src/assets/profile_icons/high.jpg',
+        name: 'Pikachu on Acid',
+        duration: '3:31',
+        author: 'high5toons',
+        likes: '',
+        genre: 'Recommended, Crazy, 2D Animation',
+        iframe: '../../src/assets/videos/Pikachu on Acid.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    }, {
+        videoId: '5',
+        src: '../../src/assets/card/PINCHIMONO - Levantarse.jpg',
+        icon: '../../src/assets/profile_icons/negas.jpg',
+        name: 'PINCHIMONO - Levantarse',
+        duration: '1:19',
+        author: 'NEGAS',
+        likes: '',
+        genre: 'Recommended, Adult, 2D Animation, Comedy',
+        iframe: '../../src/assets/videos/#PINCHIMONO - Levantarse.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor. Nullam euismod ligula nec purus vestibulum, at congue justo bibendum. Curabitur sed libero eget lorem malesuada blandit. Sed et tristique elit. Nulla facilisi. Sed fermentum, leo sit amet dictum cursus, nibh elit lacinia justo, ac mattis orci purus quis ex.'
+    }, {
+        videoId: '6',
+        src: '../../src/assets/card/PLAYGROUND- trailer.jpg',
+        icon: '../../src/assets/profile_icons/rodrigo.jpg',
+        name: 'PLAYGROUND- trailer',
+        duration: '1:13',
+        author: 'Rodrigo Sousa',
+        likes: '',
+        genre: 'Recommended, Crazy, 2D Animation, Trailer',
+        iframe: '../../src/assets/videos/PLAYGROUND- trailer.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor. Nullam euismod ligula nec purus vestibulum, at congue justo bibendum. Curabitur sed libero eget lorem malesuada blandit. Sed et tristique elit. Nulla facilisi. Sed fermentum, leo sit amet dictum cursus, nibh elit lacinia justo, ac mattis orci purus quis ex.'
+
+    }, {
+        videoId: '7',
+        src: '../../src/assets/card/Salad Fingers 13 Harvest.jpg',
+        icon: '../../src/assets/profile_icons/david.jpg',
+        name: 'Salad Fingers 13 Harvest',
+        duration: '11:01',
+        author: 'David Firth',
+        likes: '',
+        genre: 'Recommended, Terror, 2D Animation, Adult, Premium',
+        iframe: '../../src/assets/videos/Salad Fingers 13_ Harvest.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor. Nullam euismod ligula nec purus vestibulum, at congue justo bibendum. Curabitur sed libero eget lorem malesuada blandit. Sed et tristique elit. Nulla facilisi. Sed fermentum, leo sit amet dictum cursus, nibh elit lacinia justo, ac mattis orci purus quis ex.'
+    }, {
+        videoId: '8',
+        src: '../../src/assets/card/So I Tried Elden Ring  EP 1.jpg',
+        icon: '../../src/assets/profile_icons/car.jpg',
+        name: 'So I Tried Elden Ring  EP 1',
+        duration: '1:28',
+        author: 'CarbotAnimations',
+        likes: '',
+        genre: 'Recommended, Parody, 2D Animation, Webserie, Comedy',
+        iframe: '../../src/assets/videos/So I Tried Elden Ring _ EP 1.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    }, {
+        videoId: '9',
+        src: '../../src/assets/card/Vete a la Versh - T5, E13 ¡¿Qué o Qué!.jpg',
+        icon: '../../src/assets/profile_icons/darkar.jpg',
+        name: 'Vete a la Versh - T5, E13 ¡¿Qué o Qué!',
+        duration: '4:21',
+        author: 'Darkar Company Studios',
+        likes: '',
+        genre: 'Recommended, Adult, 2D Animation, Comedy, Premium',
+        iframe: '../../src/assets/videos/Vete a la Versh - T5, E13_ ¡¿Qué o Qué_!.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    }, {
+        videoId: '10',
+        src: '../../src/assets/card/Welcome to BERSERK (ANIMATION).jpg',
+        icon: '../../src/assets/profile_icons/quack.jpg',
+        name: 'Welcome to BERSERK (ANIMATION)',
+        duration: '1:26',
+        author: 'Quack Attack',
+        likes: '',
+        genre: 'Recommended, Parody, 2D Animation',
+        iframe: '../../src/assets/videos/Welcome to BERSERK (ANIMATION).mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus'
+    }, {
+        videoId: '11',
+        src: '../../src/assets/card/You Got A Friend In Me.jpg',
+        icon: '../../src/assets/profile_icons/meat.jpg',
+        name: 'You Got A Friend In Me',
+        duration: '1:26',
+        author: 'MeatCanyon',
+        likes: '',
+        genre: 'Recommended, Terror, 2D Animation, Adult, Premium, Parody',
+        iframe: '../../src/assets/videos/You Got A Friend In Me.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus'
+    }, {
+        videoId: '12',
+        src: '../../src/assets/card/Animación stop motion plastilina  Taco Man.jpg',
+        icon: '../../src/assets/profile_icons/chack.jpg',
+        name: 'Animación stop motion plastilina | Taco Man',
+        duration: '2:10',
+        author: 'Chak Ramirez',
+        likes: '',
+        genre: 'Recommended, Comedy, Stop Motion',
+        iframe: '../../src/assets/videos/Animación stop motion plastilina _ Taco Man.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus'
+    }, {
+        videoId: '13',
+        src: '../../src/assets/card/Kirby vs the clay-man  nendoroid kirby stop motion fight pt.1.jpg',
+        icon: '../../src/assets/profile_icons/space.jpg',
+        name: 'Kirby vs the clay-man | nendoroid kirby stop motion fight pt.1',
+        duration: '4:55',
+        author: 'Spaceman Animation',
+        likes: '',
+        genre: 'Recommended, Parody, Stop Motion.jpg',
+        iframe: '../../src/assets/videos/Kirby vs the clay-man _ nendoroid kirby stop motion fight pt.1.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    }, {
+        videoId: '14',
+        src: '../../src/assets/card/The Maker.jpg',
+        icon: '../../src/assets/profile_icons/zealus.jpg',
+        name: 'The Maker',
+        duration: '5:30',
+        author: 'Zealous Creative',
+        likes: '',
+        genre: 'Recommended, Drama, Stop Motion',
+        iframe: '../../src/assets/videos/The Maker.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus'
+    }, {
+        videoId: '15',
+        src: '../../src/assets/card/Fever The Ghost - SOURCE (official music video).jpg',
+        icon: '../../src/assets/profile_icons/felix.jpg',
+        name: 'Fever The Ghost - SOURCE (official music video)',
+        duration: '4:09',
+        author: 'Felix Colgrave',
+        likes: '',
+        genre: 'Recommended, Music, 2D Animation, Crazy',
+        iframe: '../../src/assets/videos/Fever The Ghost - SOURCE (official music video).mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus'
+
+    },
+    {
+        videoId: '16',
+        src: '../../src/assets/card/Among Us  Hyper-realistic horror 3D animation Part 1.jpg',
+        icon: '../../src/assets/profile_icons/print.jpg',
+        name: 'Among Us | Hyper-realistic horror 3D animation: Part 1',
+        duration: '1:44',
+        author: '3D Print Guy',
+        likes: '',
+        genre: 'Recommended, Terror, 3D Animation, Parody',
+        iframe: '../../src/assets/videos/Among Us _ Hyper-realistic horror 3D animation_ Part 1.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus'
+
+    },
+    {
+        videoId: '17',
+        src: '../../src/assets/card/JAWBREAKER - (ed edd n eddy parody).jpg',
+        icon: '../../src/assets/profile_icons/meat.jpg',
+        name: 'JAWBREAKER - (ed edd n eddy parody)',
+        duration: '2:02',
+        author: 'MeatCanyon',
+        likes: '',
+        genre: 'Recommended, Terror, 2D Animation, Adult',
+        iframe: '../../src/assets/videos/JAWBREAKER - (ed edd n eddy parody).mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus'
+
+    },
+    {
+        videoId: '18',
+        src: '../../src/assets/card/JAWBREAKER 2.jpg',
+        icon: '../../src/assets/profile_icons/meat.jpg',
+        name: 'JAWBREAKER 2',
+        duration: '3:21',
+        author: 'MeatCanyon',
+        likes: '',
+        genre: 'Recommended, Terror, 2D Animation, Adult, Premium',
+        iframe: '../../src/assets/videos/JAWBREAKER 2.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus',
+
+    },
+    {
+        videoId: '19',
+        src: '../../src/assets/card/Brush A Fox Tale Animated Short Film.jpg',
+        icon: '../../src/assets/profile_icons/bush.jpg',
+        name: 'Brush: A Fox Tale Animated Short Film',
+        duration: '3:37',
+        author: 'Brush: A Fox Tale Official',
+        likes: '',
+        genre: 'Recommended, Drama, 3D Animation',
+        iframe: '../../src/assets/videos/Brush_ A Fox Tale Animated Short Film.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    },
+    {
+        videoId: '20',
+        src: '../../src/assets/card/Dont Hug Me Im Scared 2 (teaser).jpg',
+        icon: '../../src/assets/profile_icons/dont.jpg',
+        name: 'Dont Hug Me Im Scared 2 (teaser)',
+        duration: '0:12',
+        author: 'Dont Hug Me .Im Scared',
+        likes: '',
+        genre: 'Recommended, Puppet, Adult, Terror, Trailer',
+        iframe: '../../src/assets/videos/Dont Hug Me im Scared 2 (teaser).mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    },
+    {
+        videoId: '21',
+        src: '../../src/assets/card/Dont Hug Me Im Scared 2 - TIME.jpg',
+        icon: '../../src/assets/profile_icons/dont.jpg',
+        name: 'Dont Hug Me Im Scared 2 - TIME',
+        duration: '3:41',
+        author: 'Dont Hug Me .Im Scared',
+        likes: '',
+        genre: 'Recommended, Puppet, Adult, Terror, Webserie, Premium',
+        iframe: '../../src/assets/videos/Dont Hug Me Im Scared 2 - TIME.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    },
+    {
+        videoId: '22',
+        src: '../../src/assets/card/The Translator (Ep. 2)  Awkward Puppets.jpg',
+        icon: '../../src/assets/profile_icons/puppet.jpg',
+        name: 'The Translator (Ep. 2) | Awkward Puppets',
+        duration: '2:59',
+        author: 'Awkward Puppets',
+        likes: '',
+        genre: 'Recommended, Puppet, Drama, Webserie',
+        iframe: '../../src/assets/videos/The Translator (Ep. 2) _ Awkward Puppets.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    },
+    {
+        videoId: '23',
+        src: '../../src/assets/card/The Translator  Awkward Puppets.jpg',
+        icon: '../../src/assets/profile_icons/puppet.jpg',
+        name: 'The Translator | Awkward Puppets',
+        duration: '2:51',
+        author: 'Awkward Puppets',
+        likes: '',
+        genre: 'Recommended, Puppet, Drama, Webserie',
+        iframe: '../../src/assets/videos/The Translator _ Awkward Puppets.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    },
+    {
+        videoId: '24',
+        src: '../../src/assets/card/Butter Lettuce (Bravest Warriors - Ep. 3 Season 1 On Cartoon Hangover).jpg',
+        icon: '../../src/assets/profile_icons/hangover.jpg',
+        name: 'Butter Lettuce (Bravest Warriors - Ep. 3 Season 1 On Cartoon Hangover)',
+        duration: '5:41',
+        author: 'Cartoon Hangover',
+        likes: '',
+        genre: 'Recommended, Comedy, 2D Animation, Crazy, Webserie, Premium',
+        iframe: '../../src/assets/videos/Butter Lettuce (Bravest Warriors - Ep. 3 Season 1 On Cartoon Hangover).mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    },
+    {
+        videoId: '25',
+        src: '../../src/assets/card/Time Slime (Bravest Warriors - Ep. 1 Season 1 On Cartoon Hangover).jpg',
+        icon: '../../src/assets/profile_icons/hangover.jpg',
+        name: 'Time Slime (Bravest Warriors - Ep. 1 Season 1 On Cartoon Hangover)',
+        duration: '5:38',
+        author: 'Cartoon Hangover',
+        likes: '',
+        genre: 'Recommended, Comedy, 2D Animation, Crazy, Webserie, Premium',
+        iframe: '../../src/assets/videos/Time Slime (Bravest Warriors - Ep. 1 Season 1 On Cartoon Hangover).mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    },
+    {
+        videoId: '26',
+        src: '../../src/assets/card/Catbug (Bravest Warriors - Ep. 11 Season 1 on Cartoon Hangover).jpg',
+        icon: '../../src/assets/profile_icons/hangover.jpg',
+        name: 'Catbug (Bravest Warriors - Ep. 11 Season 1 on Cartoon Hangover)',
+        duration: '7:02',
+        author: 'Cartoon Hangover',
+        likes: '',
+        genre: 'Recommended, Comedy, 2D Animation, Crazy, Webserie, Premium',
+        iframe: '../../src/assets/videos/Catbug (Bravest Warriors - Ep. 11 Season 1 on Cartoon Hangover).mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    },
+    {
+        videoId: '27',
+        src: '../../src/assets/card/Stop Motion A series of moving Dragon Ball figures.jpg',
+        icon: '../../src/assets/profile_icons/animist.jpg',
+        name: 'Stop Motion |A series of moving Dragon Ball figures',
+        duration: '2:46',
+        author: 'Animist',
+        likes: '',
+        genre: 'Recommended, Stop Motion, Parody',
+        iframe: '../../src/assets/videos/Stop Motion _A series of moving Dragon Ball figures.mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.',
+    },
+    {
+        videoId: '27',
+        src: '../../src/assets/card/Mcbaise - Water Slide (feat. Kamggarn).jpg',
+        icon: '../../src/assets/profile_icons/mcbess.jpg',
+        name: 'Mcbaise - Water Slide (feat. Kamggarn)',
+        duration: '4:27',
+        author: 'mc bess',
+        likes: '',
+        genre: 'Recommended, Music, 2D Animation, Crazy', 
+        iframe: '../../src/assets/videos/Mcbaise - Water Slide (feat. Kamggarn).mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    },
+    {
+        videoId: '28',
+        src: '../../src/assets/card/Afternoon Class - Animation Short Film (2014).jpg',
+        name: 'Afternoon Class - Animation Short Film (2014)',
+        icon: '../../src/assets/profile_icons/osro.jpg',
+        duration: '3:50',
+        author: 'Osro',
+        likes: '',
+        genre: 'Recommended, Crazy, 2D Animation',
+        iframe: '../../src/assets/videos/Afternoon Class - Animation Short Film (2014).mp4',
+        resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum ante eu tortor pretium, a luctus sapien luctus. Integer in condimentum dolor.'
+    },
+];
+
+
+
+// genre: Recommended, Terror, Crazy, Parody, Trailer, Webserie, Comedy, Drama,
+// Romance, Adult, 2D Animation, 3D Animation, Stop Motion, Puppets, Premium, Music
+// { src: '../../src/assets/Time Slime (Bravest Warriors - Ep. 1 Season 1 On Cartoon Hangover).jpg',
+// name: 'Time Slime (Bravest Warriors - Ep. 1 Season 1 On Cartoon Hangover)',
+// duration: '5:38',
+// author:'Cartoon Hangover',
+// likes: '',
+// genre: 'Recommended, Comedy, 2D Animation, Crazy, Webserie, Premium',
+// iframe: ''
+// }, 
